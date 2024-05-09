@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-class SnackBarScreen extends StatelessWidget {
+class SnackbarScreen extends StatelessWidget {
   static const name = 'snackbar_screen';
 
-  const SnackBarScreen({super.key});
+  const SnackbarScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

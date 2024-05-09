@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-class InifiteScrollScreen extends StatelessWidget {
+class InfiniteScrollScreen extends StatelessWidget {
   static const name = 'infinite_scroll_screen';
 
-  const InifiteScrollScreen({super.key});
+  const InfiniteScrollScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
