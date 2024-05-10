@@ -60,7 +60,7 @@ class SnackbarScreen extends StatelessWidget {
                 child: const Text('Licencias usadas')),
             FilledButton.tonal(
                 onPressed: () => openDialog(context), 
-                child: Text('Mostrar dialogo de pantalla')
+                child: const Text('Mostrar dialogo de pantalla')
               )
           ],
         ),
