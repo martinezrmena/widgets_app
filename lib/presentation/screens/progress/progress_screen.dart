@@ -16,6 +16,7 @@ class ProgressScreen extends StatelessWidget {
   }
 }
 
+// ignore: camel_case_types
 class _Progress_View extends StatelessWidget {
   const _Progress_View();
 
@@ -40,7 +41,7 @@ class _Progress_View extends StatelessWidget {
 }
 
 class _ControlledProgressIndicator extends StatelessWidget {
-  const _ControlledProgressIndicator({super.key});
+  const _ControlledProgressIndicator();
 
   @override
   Widget build(BuildContext context) {

@@ -74,5 +74,12 @@ const appMenuItems = <MenuItem>[
     icon: Icons.list_alt_rounded
   ),
 
+  MenuItem(
+    title: 'Counter Screen', 
+    subTitle: 'Count values', 
+    link: '/counter', 
+    icon: Icons.calculate
+  ),
+
 
 ];

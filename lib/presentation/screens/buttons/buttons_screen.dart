@@ -76,7 +76,7 @@ class _ButtonsView extends StatelessWidget {
             const CustomButton(),
 
 
-            IconButton(onPressed: (){}, icon: Icon(Icons.app_registration)),
+            IconButton(onPressed: (){}, icon: const Icon(Icons.app_registration)),
 
             IconButton(
               onPressed: (){}, 
