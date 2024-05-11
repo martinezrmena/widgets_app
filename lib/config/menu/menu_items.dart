@@ -75,8 +75,8 @@ const appMenuItems = <MenuItem>[
   ),
 
   MenuItem(
-    title: 'Counter Screen', 
-    subTitle: 'Count values', 
+    title: 'Riverpod Counter', 
+    subTitle: 'Introduccion a Riverpod', 
     link: '/counter', 
     icon: Icons.calculate
   ),

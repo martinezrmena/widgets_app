@@ -8,8 +8,20 @@ class CounterScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      body: Text('Counter'),
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Counter Screen'),
+      ),
+      body: Center(
+        child: Text('Valor 10', style: Theme.of(context).textTheme.titleLarge,),
+      ),
+
+      floatingActionButton: FloatingActionButton(
+        child: const Icon(Icons.add),
+        onPressed:() {
+          
+        },
+      ),
     );
   }
 }
